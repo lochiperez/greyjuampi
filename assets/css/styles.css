@@ -23,6 +23,8 @@
 
   .portada-fondo {
     background-image: url('../img/portada_mobile.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
    top: 0;
    height: 100vh;
@@ -32,6 +34,7 @@
 
 h1.nombre{
   font-size: 15rem;
+  color: #D1B860;
 }
 
 p.nombre{
@@ -77,7 +80,7 @@ p.nombre{
   
   
   .fancybox-bg{
-    background-color: var(--color-primario) !important;
+    background-color: #D1B860 !important;
   }
   
   ul{
