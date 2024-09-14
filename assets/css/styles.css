@@ -428,7 +428,7 @@ p.nombre{
   
   section.dresscode{
     text-align: center;
-    padding: 60px 10px 60px 10px;
+    padding: 60px 10px 1px 10px;
     background-color:#C2D8E5;
   }
   
@@ -437,9 +437,12 @@ p.nombre{
       font-size: 4rem;
       text-align: center;
       margin-bottom: 20px;
-      color:white;
+      color: #D1B860;
   }
   
+  .dorado{
+    color: #D1B860 !important;
+  }
   
   section.dresscode p{
     /* font-family: 'Slabo 27px', serif; */
